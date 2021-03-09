@@ -1,0 +1,41 @@
+.inscontainer{
+    font-family: "QuickSand";
+    font-size:30px;
+    text-align: center;
+    color:black;
+    float:center
+}
+input {
+    width: 20%;
+    padding: 20px 20px;
+    float:center;
+    margin-bottom: 2%;
+}
+#newgame{
+    text-align:center;
+    font-family: "QuickSand";
+    font-size:60px;
+    color:black;
+    margin-bottom: 10%;
+}
+button {
+    background-color:rgb(105, 140, 168);
+    color: white;
+    border-radius: 1cm;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border:none;
+    cursor: pointer;
+    width: 10%;
+  }
+  body{
+    background-image: linear-gradient(to right, rgb(209, 122, 8) , rgb(226, 226, 17));
+  }
+  button :hover{
+      opacity: 0.8;
+  }
+label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+}

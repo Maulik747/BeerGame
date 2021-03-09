@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(209, 122, 8),
+    rgb(226, 226, 17)
+  );
+}
+.datumm {
+  font-family: "QuickSand";
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10%;
+  color: black;
+}
+#orderinput {
+  text-align: center;
+  font-size: xx-large;
+  font-family: "QuickSand";
+}
+#message1 {
+  padding: 10px 10px;
+}
+#btnn {
+  background-color: steelblue;
+  color: white;
+  border-radius: 0.25cm;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+#btnn :hover {
+  opacity: 0.4;
+}

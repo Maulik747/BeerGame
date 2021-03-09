@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/instructor.css">
+    <title>Create Game</title>
+</head>
+
+<body>
+    <h1 id="newgame">Create a game as instructor</h1>
+    <form>
+        <div class=inscontainer>
+            <label for="gnumber">Game ID</label>
+            <input  placeholder="GameID" name="gnumber" pattern="[0-9]+" required> Positive Integer<br />
+            <label for="Weeks">Weeks</label>
+            <input pattern="[0-9]+" placeholder="Weeks" name="Weeks" value="28" required> Positive Integer<br />
+            <label for="backlogcost">Backlog Cost</label>
+            <input pattern="[0-9]+.*" placeholder="Backlog Cost" name="backlogcost" id="blog" value="0.5" required> Positive Real<br />
+            <label for="holdcost">Holding Cost</label>
+            <input pattern="[0-9]+.*" placeholder="Holding Cost" name="holdcost" value="1" required> Positive Real<br />
+           
+            <button type="submit" class="button">CreateGame</button>
+            
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

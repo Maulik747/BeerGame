@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player</title>
+    <link rel="stylesheet" href="../CSS/player.css">
+    <script src="../JavaScript/player.js"></script>
+<body>
+    <form id="orderinput">
+        <label for="message">Order</label>
+        <input placeholder="your order" pattern="[0-9]+" id = "message1" name="message1" required>
+        <input type="button" onclick="showOrder()" value="submit" id="btnn" />
+    </form>
+    <div class="datumm">
+        <h3>Holding Cost: <span id="hcost"></span></h3>
+        <h3>Backlog Cost: <span id="bcost"></span></h3>
+        <h3>Units to be supplied: <span id="units">0</span> </h3>
+        <h3>Total Order: <span id="totalorder"></span></h3>
+        <h3>Units available: <span id="unitsav"></span></h3>
+    </div>
+</body>
+</html>
