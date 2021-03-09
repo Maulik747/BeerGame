@@ -2,7 +2,7 @@
 function showOrder(){
     var totalorder=0;//keeping track of the total order
     var randomDemand=Math.floor(Math.random()*100);//genrating random demands
-    var accumulatedOrder=document.getElementById('message').value;
+    var accumulatedOrder=document.getElementById('message1').value;
     accumulatedOrder=Number(accumulatedOrder)
     var currentOrder=document.getElementById("totalorder").innerHTML
     currentOrder=Number(currentOrder)

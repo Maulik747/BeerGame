@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <h1 id="newgame">Create a game as instructor</h1>
+    <h1 id="newgame">Create a game as instructor <button id="iview">ViewGames</button></h1>
+    <script type="text/javascript">
+        document.getElementById("iview").onclick = function () {
+            location.href = "games.html";
+        };
+    </script>
     <form>
         <div class=inscontainer>
             <label for="gnumber">Game ID</label>

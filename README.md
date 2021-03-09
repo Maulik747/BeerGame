@@ -1,31 +1,31 @@
-# BeerGame
+Beer Game 
 
-### CSS Folder
-
-This folder contains the stylings done to the various html pages.
-Contents:
-	index.css
-	instructor.css
-	player.css
+Rron Alo
+Maulik Chhetri
 
 
-### HTML Folder
+### The project is done using HTML, JavaScript, and CSS
 
-This folder contains the html pages like login, game-creation and game-play.
+### The current files that have been created are as follows (directory format):
 
-Contents:
-	index.html
-	instructor.html
-	login-instructor.html
-	login-player.html
-	player.html
+### CSS
+---index.css               # CSS corresponding to index.html
+---instructor.css          # CSS corresponding to instructor.html
+---player.css		   # CSS corresponding to player.html
 
-### Javascript Folder
+### JavaScript
+---player.js               # JS corresponding to player.html
 
-This folder consists of a Javascript file that stiumates the dummy game
+### HTML
+---index.html		   # Greeting site
+---instructor.html         # Instructor screen for creating games
+---login-instructor.html   # instructor login page
+---login-player.html       # player login page
+---player.html		   # Game screen for player *(Not finished)
 
-Contents:
-	player.js
+The frontend will be done using plain JS HTML5 and CSS. 
+
+### The first page that is meant to be access by the user should be index.html
 
 
 ### How should the website be navigated?
