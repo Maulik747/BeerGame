@@ -29,6 +29,23 @@ Maulik Chhetri
 
 The frontend will be done using plain JS HTML5 and CSS.
 
+### PDF
+
+---DocumentationSE.pdf # documentation<br/>
+
+### TestJavaScript
+
+--- apptest.js<br/>
+--- browsertest.html<br/>
+---playergame.js<br/>
+
+### Run Test Code
+
+--- run command: `npm install` on the directory <br/>
+--Open the html file browsertest in TestJavascript Directory.<br/>
+
+package.json: required for the aforementioned command.
+
 ### The first page that is meant to be access by the user should be index.html
 
 ### How should the website be navigated?
